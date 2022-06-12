@@ -16,9 +16,11 @@
     "@fontsource/open-sans": "^4.5.10",
     "@fontsource/raleway": "^4.5.9",
     "framer-motion": "^6.3.11",
+    "i18next": "^21.8.9",
     "next": "12.1.6",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-i18next": "^11.17.1"
   },
   "devDependencies": {
     "eslint": "8.17.0",
