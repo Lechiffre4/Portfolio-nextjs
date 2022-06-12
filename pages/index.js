@@ -45,15 +45,17 @@ export default function Home() {
       <Container bg="#F5F94D" w="100px" h="2px" style={{position:"absolute", top:"15%", left:"45%", zIndex:"0"}}></Container>
       <Container bg="#4DAEF9" w="100px" h="2px" style={{position:"absolute", top:"50%", left:"2%", zIndex:"0", transform:"rotate(90deg)"}}></Container>
 
-      <Container bg="#4DAEF9" w="200px" h="2px" style={{position:"absolute", top:"95%", right:"15%", zIndex:"0"}}></Container>
-      <Container bg="#F5F94D" w="100px" h="2px" style={{position:"absolute", top:"90%", right:"13%", zIndex:"0", transform:"rotate(90deg)"}}></Container>
+      <Container bg="#4DAEF9" w="200px" h="2px" style={{position:"absolute", top:"95%", right:"10%", zIndex:"0"}}></Container>
+      <Container bg="#F5F94D" w="100px" h="2px" style={{position:"absolute", top:"90%", right:"8%", zIndex:"0", transform:"rotate(90deg)"}}></Container>
 
       <Container bg="#F5F94D" w="200px" h="3px" style={{position:"absolute", top:"105%", left:"20%", zIndex:"0"}}></Container>
 
       <Box border='2px' borderColor='#4DAEF9' w="20px" h="20px" style={{position:"absolute", top:"20%", left:"80%", zIndex:"0", transform:"rotate(70deg)"}}></Box>
-      <Box border='2px' borderColor='#F5F94D' w="30px" h="30px" style={{position:"absolute", top:"95%", left:"50%", zIndex:"0", transform:"rotate(25deg)"}}></Box>
+      <Box border='2px' borderColor='#F5F94D' w="30px" h="30px" style={{position:"absolute", top:"98%", left:"80%", zIndex:"0", transform:"rotate(25deg)"}}></Box>
       <Box border='2px' borderColor='#F5F94D' w="20px" h="20px" style={{position:"absolute", top:"20%", left:"10%", zIndex:"0", transform:"rotate(55deg)"}}></Box>
       <Box border='2px' borderColor='#4DAEF9' w="20px" h="20px" style={{position:"absolute", top:"80%", left:"15%", zIndex:"0", transform:"rotate(70deg)"}}></Box>
+      <Box border='2px' borderColor='#4DAEF9' w="15px" h="15px" style={{position:"absolute", top:"45%", left:"50%", zIndex:"0", transform:"rotate(55deg)"}}></Box>
+      <Box border='2px' borderColor='#F5F94D' w="25px" h="25px" style={{position:"absolute", top:"95%", left:"40%", zIndex:"0", transform:"rotate(55deg)"}}></Box>
       
 
       
