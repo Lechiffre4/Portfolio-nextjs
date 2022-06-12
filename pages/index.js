@@ -265,24 +265,25 @@ export default function Home() {
           </Container>
 
 
-          <Container maxW="container.sm" my={"auto"} style={{ zIndex: "10" }} w="100%" h="50%" bg="#171923">
-            <Flex justifyContent="center"  color="white" flexDirection="column">
+          <Container maxW="container.sm" my={"auto"} style={{ zIndex: "10", height:"fit-content", position:"relative",transformStyle: "preserve-3d" }} w="100%"  bg="#171923">
+            <Flex justifyContent="center" color="white" flexDirection="column">
               <Text my="5">{data.presentation1}</Text>
               <Text my="5">{data.presentation2}</Text>
               <Text my="5">{data.presentation3}</Text>
               <Text my="5">{data.presentation4}</Text>
               <Text my="5">{data.presentation5}</Text>
             </Flex>
+            <Box  w="100%" h="100%" bg="#4A5568" 
+              style={{
+                position: "absolute",
+                top: "11%",
+                left: "8%", 
+                zIndex: "-100",
+                transform: "translateZ(-10px)",
+                }}>
+            </Box>
           </Container>
-          <Container maxW="container.sm" my={"auto"} w="100%" h="50%" bg="#4A5568" 
-          style={{
-            position: "absolute",
-            top: "30%",
-            left: "52%", 
-            zIndex: "0",
-            }}>
-
-          </Container>
+          
         </Flex>
 
         <a style={{
