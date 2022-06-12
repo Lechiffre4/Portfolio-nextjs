@@ -252,7 +252,7 @@ export default function Home() {
           </Container>
 
           <Container maxW="container.sm" my={"auto"} style={{ zIndex: "10"}}>
-              <Image src="/images/me.jpg" alt={"me"} w="50%" h="50%" mx="auto" mb="5" />
+              <Image src="/images/me.JPG" alt={"me"} w="50%" h="50%" mx="auto" mb="5" />
           </Container>
 
           <Container w="300px" h="350px" bg="#F5F94D"
