@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <>
     
-    <Flex style={{width:"85%", height:"500px"}} mx={"auto"}>
+    <Flex style={{width:"85%", height:"500px"}} mx={"auto"} mt={50}>
       
       <Container maxW='container.sm' my={"auto"} style={{zIndex:"10"}}>
         <Text fontSize='6xl'>Sahel HAOUCHET</Text>
