@@ -1,7 +1,7 @@
 import Head from "next/head";
 import React from 'react';
 import { ReactNode } from "react";
-import data from "../data/text.json";
+import data from "../data/Text.json";
 import {
   Box,
   Flex,
