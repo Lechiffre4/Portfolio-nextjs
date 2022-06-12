@@ -29,7 +29,6 @@ import { ChevronDownIcon, ChevronUpIcon } from "@chakra-ui/icons";
 
 export default function Home() {
 
-
   return (
     <>
       <section style={{position:"relative"}} >
