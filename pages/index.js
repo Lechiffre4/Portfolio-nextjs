@@ -22,6 +22,7 @@ import {
   useColorMode,
   Center,
   Heading,
+  HStack,
 } from "@chakra-ui/react";
 
 import { Container } from "@chakra-ui/react";
@@ -292,11 +293,100 @@ export default function Home() {
               left: "47%",
               zIndex: "10",
             }}
+            href="#skills">
+          <ChevronDownIcon  w={10} h={10}/>
+        </a>
+      </section>
+      
+
+      <section style={{position:"relative", marginTop:"10%"}}  id="skills">
+        
+        <a style={{
+              position: "absolute",
+              top: "2%",
+              left: "47%",
+              zIndex: "10",
+            }}
+            href="#me">
+          <ChevronUpIcon  w={10} h={10}/>
+        </a>
+
+        <Container w="250px" h="70px" bg="#171923" fontStyle={"italic"} textAlign={"center"} alignContent={"center"}
+         style={{
+          position: "absolute",
+          top: "12%",
+          left: "40%",
+          zIndex: "15",
+          fontSize: "2.5rem",
+          color: "white",
+          }}>
+        <Text>
+            {data.skills}
+            </Text>
+          </Container>
+
+        <Flex style={{ width: "85%", height: "750px" }} mx={"auto"} >   
+        <Container w="500px" h="320px" bg="#F5F94D"
+          style={{
+            position: "absolute",
+            top: "18%",
+            left: "45%",
+            zIndex: "10",
+            }}>
+          </Container>
+          
+          <Container w="500px" h="320px" bg="gray.700"
+          style={{
+            position: "absolute",
+            top: "28%",
+            left: "32%",
+            zIndex: "10",
+            }}>
+              <Flex direction={"column"} mt={"7"}>
+              <HStack justifyContent={"center"} my={"2"}>
+                <Image src="/images/skills/c++.png" w="60px"/ >
+                <Image src="/images/skills/csharp.png" w="60px"/ >
+                <Image src="/images/skills/python.png" w="60px"/ >
+                
+                <Image src="/images/skills/js.png" w="60px"/ >
+              </HStack>
+              <HStack justifyContent={"center"} my={"2"}>
+                <Image src="/images/skills/html.png" w="82px"/ >
+                <Image src="/images/skills/css.png" w="50px"/ >
+                <Image src="/images/skills/django.png" w="80px"/ >
+                <Image src="/images/skills/firebase.png" w="60px"/ >
+                <Image src="/images/skills/nextjs.png" w="60px"/ >
+              </HStack>
+              <HStack justifyContent={"center"} my={"2"}>
+                <Image src="/images/skills/node-js.png" w="60px"/ >
+                <Image src="/images/skills/PowerBI.png" w="60px"/ >
+                <Image src="/images/skills/git.png" w="60px"/ >
+                <Image src="/images/skills/sql.png" w="60px"/ >
+              </HStack>
+              </Flex>
+              
+          </Container>
+
+          <Container w="500px" h="320px" bg="#4DAEF9"
+          style={{
+            position: "absolute",
+            top: "42%",
+            left: "23%",
+            zIndex: "0",
+            }}>
+          </Container>
+          </Flex>
+
+        <a style={{
+              position: "absolute",
+              top: "88%",
+              left: "47%",
+              zIndex: "10",
+            }}
             href="#home">
           <ChevronDownIcon  w={10} h={10}/>
         </a>
       </section>
-
 
       
     </>
