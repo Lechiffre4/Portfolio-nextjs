@@ -344,23 +344,23 @@ export default function Home() {
             }}>
               <Flex direction={"column"} mt={"7"}>
               <HStack justifyContent={"center"} my={"2"}>
-                <Image src="/images/skills/c++.png" w="60px"/ >
-                <Image src="/images/skills/csharp.png" w="60px"/ >
-                <Image src="/images/skills/python.png" w="60px"/ >
-                <Image src="/images/skills/js.png" w="60px"/ >
+                <Image src="/images/Skills/c++.png" w="60px"/ >
+                <Image src="/images/Skills/csharp.png" w="60px"/ >
+                <Image src="/images/Skills/python.png" w="60px"/ >
+                <Image src="/images/Skills/js.png" w="60px"/ >
               </HStack>
               <HStack justifyContent={"center"} my={"2"}>
-                <Image src="/images/skills/html.png" w="82px"/ >
-                <Image src="/images/skills/css.png" w="50px"/ >
-                <Image src="/images/skills/django.png" w="80px"/ >
-                <Image src="/images/skills/firebase.png" w="60px"/ >
-                <Image src="/images/skills/nextjs.png" w="60px"/ >
+                <Image src="/images/Skills/html.png" w="82px"/ >
+                <Image src="/images/Skills/css.png" w="50px"/ >
+                <Image src="/images/Skills/django.png" w="80px"/ >
+                <Image src="/images/Skills/firebase.png" w="60px"/ >
+                <Image src="/images/Skills/nextjs.png" w="60px"/ >
               </HStack>
               <HStack justifyContent={"center"} my={"2"}>
-                <Image src="/images/skills/node-js.png" w="60px"/ >
-                <Image src="/images/skills/PowerBI.png" w="60px"/ >
-                <Image src="/images/skills/git.png" w="60px"/ >
-                <Image src="/images/skills/sql.png" w="60px"/ >
+                <Image src="/images/Skills/node-js.png" w="60px"/ >
+                <Image src="/images/Skills/PowerBI.png" w="60px"/ >
+                <Image src="/images/Skills/git.png" w="60px"/ >
+                <Image src="/images/Skills/sql.png" w="60px"/ >
               </HStack>
               </Flex>
               
