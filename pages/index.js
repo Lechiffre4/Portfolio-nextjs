@@ -344,7 +344,7 @@ export default function Home() {
             }}>
               <Flex direction={"column"} mt={"7"}>
               <HStack justifyContent={"center"} my={"2"}>
-                <Image src="/images/Skills/c++.png" w="60px"/ >
+                <Image src="/images/Skills/cplusplus.png" w="60px"/ >
                 <Image src="/images/Skills/csharp.png" w="60px"/ >
                 <Image src="/images/Skills/python.png" w="60px"/ >
                 <Image src="/images/Skills/js.png" w="60px"/ >
