@@ -353,7 +353,7 @@ export default function Home() {
                 <Image src="/images/Skills/html.png" w="82px"/ >
                 <Image src="/images/Skills/css.png" w="50px"/ >
                 <Image src="/images/Skills/django.png" w="80px"/ >
-                <Image src="/images/Skills/firebase.png" w="60px"/ >
+                <Image src="/images/Skills/Firebase.png" w="60px"/ >
                 <Image src="/images/Skills/nextjs.png" w="60px"/ >
               </HStack>
               <HStack justifyContent={"center"} my={"2"}>
