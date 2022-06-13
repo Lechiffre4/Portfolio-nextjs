@@ -347,7 +347,6 @@ export default function Home() {
                 <Image src="/images/skills/c++.png" w="60px"/ >
                 <Image src="/images/skills/csharp.png" w="60px"/ >
                 <Image src="/images/skills/python.png" w="60px"/ >
-                
                 <Image src="/images/skills/js.png" w="60px"/ >
               </HStack>
               <HStack justifyContent={"center"} my={"2"}>
