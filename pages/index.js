@@ -222,7 +222,7 @@ export default function Home() {
         </Flex>
       </section>
 
-      <section style={{ marginTop: "20vh" }} id="me">
+      <section style={{ marginTop: "23vh" }} id="me">
 
         <Flex
           style={{ width: "85%", height: "fit-content" }}
