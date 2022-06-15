@@ -217,33 +217,10 @@ export default function Home() {
           </div> 
         </Flex>
 
-        <a variant='ghost' style={{
-              position: "absolute",
-              top: "105%",
-              left: "47%",
-              zIndex: "10",
-            }}
-            href="#me">
-          <ChevronDownIcon  w={10} h={10}/>
-        </a>
       </section>
 
-      <section style={{position:"relative", marginTop:"10%"}}  id="me">
-        
-        <a style={{
-              position: "absolute",
-              top: "2%",
-              left: "47%",
-              zIndex: "10",
-            }}
-            href="#home">
-          <ChevronUpIcon  w={10} h={10}/>
-        </a>
-        
-
-
-        <Flex style={{ width: "85%", height: "750px" }} mx={"auto"} >
-          <Container w="300px" h="350px" bg="#4DAEF9"
+      <section style={{position:"relative", marginTop:"20vh"}}  id="me">
+          {/*<Container w="300px" h="350px" bg="#4DAEF9"
           style={{
             position: "absolute",
             top: "13%",
@@ -251,11 +228,7 @@ export default function Home() {
             zIndex: "10",
             }}>
           </Container>
-
-          <Container maxW="container.sm" my={"auto"} style={{ zIndex: "10"}}>
-              <Image src="/images/me.JPG" alt={"me"} w="50%" h="50%" mx="auto" mb="5" />
-          </Container>
-
+          
           <Container w="300px" h="350px" bg="#F5F94D"
           style={{
             position: "absolute",
@@ -265,16 +238,7 @@ export default function Home() {
             }}>
           </Container>
 
-
-          <Container maxW="container.sm" my={"auto"} style={{ zIndex: "10", height:"fit-content", position:"relative",transformStyle: "preserve-3d" }} w="100%"  bg="#171923">
-            <Flex justifyContent="center" color="white" flexDirection="column">
-              <Text my="5">{data.presentation1}</Text>
-              <Text my="5">{data.presentation2}</Text>
-              <Text my="5">{data.presentation3}</Text>
-              <Text my="5">{data.presentation4}</Text>
-              <Text my="5">{data.presentation5}</Text>
-            </Flex>
-            <Box  w="100%" h="100%" bg="#4A5568" 
+          <Box  w="100%" h="100%" bg="#4A5568" 
               style={{
                 position: "absolute",
                 top: "11%",
@@ -283,50 +247,45 @@ export default function Home() {
                 transform: "translateZ(-10px)",
                 }}>
             </Box>
+          */}
+          
+        <Flex style={{ width: "85%", height: "fit-content" }} className={"presentation-container"} mx={"auto"} >
+          
+          <Container maxW="container.sm" my={"auto"} style={{ zIndex: "10"}}>
+              <Image src="/images/me.JPG" alt={"me"} w="22vw" className="presentation-Image" mx="auto" mb="5" />
+          </Container>
+          
+          <Container my={"auto"} style={{ zIndex: "10", height:"fit-content", position:"relative",transformStyle: "preserve-3d" }} w="100%"  bg="#171923">
+            <Flex justifyContent="center" color="white" flexDirection="column">
+              <Text my="5">{data.presentation1}</Text>
+              <Text my="5">{data.presentation2}</Text>
+              <Text my="5">{data.presentation3}</Text>
+              <Text my="5">{data.presentation4}</Text>
+              <Text my="5">{data.presentation5}</Text>
+            </Flex>
+            
           </Container>
           
         </Flex>
-
-        <a style={{
-              position: "absolute",
-              top: "88%",
-              left: "47%",
-              zIndex: "10",
-            }}
-            href="#skills">
-          <ChevronDownIcon  w={10} h={10}/>
-        </a>
       </section>
       
 
       <section style={{position:"relative", marginTop:"10%"}}  id="skills">
         
-        <a style={{
-              position: "absolute",
-              top: "2%",
-              left: "47%",
-              zIndex: "10",
-            }}
-            href="#me">
-          <ChevronUpIcon  w={10} h={10}/>
-        </a>
-
-        <Container w="250px" h="70px" bg="#171923" fontStyle={"italic"} textAlign={"center"} alignContent={"center"}
+        <Container w={"fit-content"} px={"10%"} py={2} bg="#171923" fontStyle={"italic"} textAlign={"center"} alignContent={"center"}
          style={{
-          position: "absolute",
-          top: "12%",
-          left: "40%",
+
           zIndex: "15",
           fontSize: "2.5rem",
           color: "white",
           }}>
-        <Text>
+          <Text>
             {data.skills}
             </Text>
-          </Container>
+        </Container>
 
         <Flex style={{ width: "85%", height: "750px" }} mx={"auto"} >   
-        <Container w="500px" h="320px" bg="#F5F94D"
+        <Container w="50%" h="40%" bg="#F5F94D"
           style={{
             position: "absolute",
             top: "18%",
@@ -335,7 +294,7 @@ export default function Home() {
             }}>
           </Container>
           
-          <Container w="500px" h="320px" bg="gray.700"
+          <Container w="65%" h={"fit-content"} pb={5} bg="gray.700"
           style={{
             position: "absolute",
             top: "28%",
@@ -344,29 +303,29 @@ export default function Home() {
             }}>
               <Flex direction={"column"} mt={"7"}>
               <HStack justifyContent={"center"} my={"2"}>
-                <Image src="/images/Skills/cplusplus.png" w="60px"/ >
-                <Image src="/images/Skills/csharp.png" w="60px"/ >
-                <Image src="/images/Skills/python.png" w="60px"/ >
-                <Image src="/images/Skills/js.png" w="60px"/ >
+                <Image src="/images/Skills/cplusplus.png" w="10vw" maxWidth={"60px"}/ >
+                <Image src="/images/Skills/csharp.png" w="10vw" maxWidth={"60px"}/ >
+                <Image src="/images/Skills/python.png" w="10vw" maxWidth={"60px"}/ >
+                <Image src="/images/Skills/js.png" w="10vw" maxWidth={"60px"}/>
               </HStack>
               <HStack justifyContent={"center"} my={"2"}>
-                <Image src="/images/Skills/html.png" w="82px"/ >
-                <Image src="/images/Skills/css.png" w="50px"/ >
-                <Image src="/images/Skills/django.png" w="80px"/ >
-                <Image src="/images/Skills/Firebase.png" w="60px"/ >
-                <Image src="/images/Skills/nextjs.png" w="60px"/ >
+                <Image src="/images/Skills/html.png" w="12vw" maxWidth={"82px"}/>
+                <Image src="/images/Skills/css.png" w="8vw" maxWidth={"50px"}/>
+                <Image src="/images/Skills/django.png" w="12vw" maxWidth={"80px"}/ >
+                <Image src="/images/Skills/Firebase.png" w="10vw" maxWidth={"60px"}/>
+                <Image src="/images/Skills/nextjs.png" w="10vw" maxWidth={"60px"}/>
               </HStack>
               <HStack justifyContent={"center"} my={"2"}>
-                <Image src="/images/Skills/node-js.png" w="60px"/ >
-                <Image src="/images/Skills/PowerBI.png" w="60px"/ >
-                <Image src="/images/Skills/git.png" w="60px"/ >
-                <Image src="/images/Skills/sql.png" w="60px"/ >
+                <Image src="/images/Skills/node-js.png" w="10vw" maxWidth={"60px"}/ >
+                <Image src="/images/Skills/PowerBI.png" w="10vw" maxWidth={"60px"}/ >
+                <Image src="/images/Skills/git.png" w="10vw" maxWidth={"60px"}/ >
+                <Image src="/images/Skills/sql.png" w="10vw" maxWidth={"60px"}/ >
               </HStack>
               </Flex>
               
           </Container>
 
-          <Container w="500px" h="320px" bg="#4DAEF9"
+          <Container w="50%" h="40%" bg="#4DAEF9"
           style={{
             position: "absolute",
             top: "42%",
@@ -376,15 +335,6 @@ export default function Home() {
           </Container>
           </Flex>
 
-        <a style={{
-              position: "absolute",
-              top: "88%",
-              left: "47%",
-              zIndex: "10",
-            }}
-            href="#home">
-          <ChevronDownIcon  w={10} h={10}/>
-        </a>
       </section>
 
       

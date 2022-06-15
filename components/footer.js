@@ -23,13 +23,21 @@ import {
 export default function Footer() {
   return (
     <>
-      <Image src={"/images/logo2.svg"} alt={"logo"} w="200px" pt="5" mx={"auto"}/>
-      <HStack spacing={6} justifyContent={"center"}  pb={5}>
+      <Image
+        src={"/images/logo2.svg"}
+        alt={"logo"}
+        w="200px"
+        pt="5"
+        mx={"auto"}
+      />
+      <HStack spacing={6} justifyContent={"center"} pb={5}>
         <Text fontSize="sm">
           <a
             href="
                     https://www.linkedin.com/in/sahelhaouchet/
                     "
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <FaLinkedin size="1.5rem" />
           </a>
@@ -39,6 +47,8 @@ export default function Footer() {
             href="
                     https://discordapp.com/users/640138023870136330/
                     "
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <FaDiscord size="1.5rem" />
           </a>
@@ -48,6 +58,8 @@ export default function Footer() {
             href="
                     mailto:sahelhaouchet@gmail.com
                     "
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <FaEnvelope size="1.5rem" />
           </a>
@@ -57,6 +69,8 @@ export default function Footer() {
             href="
                     https://github.com/Lechiffre4
                     "
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <FaGithub size="1.5rem" />
           </a>
@@ -66,6 +80,8 @@ export default function Footer() {
             href="
                     https://t.me/Lechiffre4
                     "
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <FaTelegramPlane size="1.5rem" />
           </a>
