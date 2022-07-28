@@ -11,9 +11,9 @@
     "projects": "Projects",
 
     "cinemates": "Cinemates",
-    "cinematesDescription" : "Cinemates is a cinephile website which allows you to get various informations about a film or get a randomly generated film.",
+    "cinematesDescription" : "CineMates is a website that use the web scraping get informations about movies like the synopsis, the picture, the creators and even the marks of the users. Cinemates allows you also to generate a random film based on your preferences.",
 
-    "SportSpot": "SportSpot",
+    "SportSpots": "SportSpots",
     "SportSpotDescription" : "The SportSpots mobile application aims to make it easier for outdoor sports enthusiasts to find “spots” suitable for their favorite sports via a google map. The application is community-based because users who have created an account can add, verify, rate and comment on spots."
 
 }
