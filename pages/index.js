@@ -23,6 +23,8 @@ import {
   Center,
   Heading,
   HStack,
+  Grid,
+  GridItem,
 } from "@chakra-ui/react";
 
 import { Container } from "@chakra-ui/react";
@@ -32,20 +34,32 @@ export default function Home() {
   const { colorMode, toggleColorMode } = useColorMode()
 
   const SkillContainer = useColorModeValue("gray.300", "gray.700")
-
+  const ProjectsContainer = useColorModeValue("gray.300", "gray.700")
   const PresentationContainer = useColorModeValue("gray.300", "gray.700")
 
   return (
     <>
       <section style={{ position: "relative" }}>
         <Flex style={{ width: "85%", height: "500px" }} mx={"auto"} mt={50}>
-          <Container maxW="container.sm" my={"auto"} style={{ zIndex: "10" }} className={"Home-Text"}>
-            <Text fontSize="50px" className={"Home-Text"}>Sahel HAOUCHET</Text>
+          <Container
+            maxW="container.sm"
+            my={"auto"}
+            style={{ zIndex: "10" }}
+            className={"Home-Text"}
+          >
+            <Text fontSize="50px" className={"Home-Text"}>
+              Sahel HAOUCHET
+            </Text>
             <Text fontStyle="italic" fontSize="40px" className={"Home-Text"}>
               {data.jobs}
             </Text>
           </Container>
-          <Container maxW="container.sm" my={"auto"} style={{ zIndex: "10" }} className={"Home-logo"}>
+          <Container
+            maxW="container.sm"
+            my={"auto"}
+            style={{ zIndex: "10" }}
+            className={"Home-logo"}
+          >
             <div>
               <Image src={"/images/logo2.svg"} alt={"logo"} w="450" pt="5" />
             </div>
@@ -223,13 +237,16 @@ export default function Home() {
       </section>
 
       <section style={{ marginTop: "23vh" }} id="me">
-
         <Flex
           style={{ width: "85%", height: "fit-content" }}
           className={"presentation-container"}
           mx={"auto"}
         >
-          <Container maxW="container.sm" style={{position: "relative"}} my={"auto"}>
+          <Container
+            maxW="container.sm"
+            style={{ position: "relative" }}
+            my={"auto"}
+          >
             <Box bg="#4DAEF9" className="presentation-BlueBox"></Box>
             <Image
               src="/images/me.JPG"
@@ -242,7 +259,6 @@ export default function Home() {
             />
             <Box bg="#F5F94D" className="presentation-YellowBox"></Box>
           </Container>
-          
 
           <Container
             my={"auto"}
@@ -284,7 +300,15 @@ export default function Home() {
           <Text>{data.skills}</Text>
         </Container>
 
-        <Flex style={{ width: "fit-content", height: "fit-content", position:"relative" }} mx={"auto"} my={20}>
+        <Flex
+          style={{
+            width: "fit-content",
+            height: "fit-content",
+            position: "relative",
+          }}
+          mx={"auto"}
+          my={20}
+        >
           <Box bg="#F5F94D" className="skills-YellowBox"></Box>
           <Container
             w={"fit-content"}
@@ -363,6 +387,77 @@ export default function Home() {
 
           <Box bg="#4DAEF9" className="skills-BlueBox"></Box>
         </Flex>
+      </section>
+
+      <section style={{ position: "relative", marginTop: "10%" }} id="projects">
+        <Container
+          w={"fit-content"}
+          px={"10%"}
+          py={2}
+          bg={SkillContainer}
+          fontStyle={"italic"}
+          textAlign={"center"}
+          alignContent={"center"}
+          style={{
+            zIndex: "15",
+            fontSize: "2.5rem",
+          }}
+        >
+          <Text>{data.projects}</Text>
+        </Container>
+
+        <Grid templateColumns="repeat(2, 1fr)" mx={"10%"} my={"10%"} gap={6}>
+          <Box bg={ProjectsContainer}>
+            <Image src="/images/projects/Cinemates.png" w="50%" mx="auto" />
+            <Text>{data.cinematesDescription}</Text>
+          </Box>
+
+          <Box bg={ProjectsContainer} pb={"10"}>
+            <Image src="/images/projects/SportSpotBanner.png" w="100%" />
+            <Text textAlign={"center"} fontSize={"2rem"} my="1">
+              {data.SportSpot}
+            </Text>
+            <Box
+              w="20"
+              h="1"
+              bg={"#F5F94D"}
+              mx={"auto"}
+              mb={"10"}
+              borderRadius={"lg"}
+            ></Box>
+            <Text textAlign={"center"}>{data.SportSpotDescription}</Text>
+
+            <Text textAlign={"center"} fontSize={"1.3rem"} mt={10}>
+              Teck Stack
+            </Text>
+            <Box
+              w="20"
+              h="1"
+              bg={"#F5F94D"}
+              mx={"auto"}
+              mb={"5"}
+              borderRadius={"lg"}
+            ></Box>
+            <Flex justifyContent={"space-around"} mx={"25%"} mb="7">
+              <Image
+                src="/images/skills/react.png"
+                w="10vw"
+                maxWidth={"50px"}
+              />
+              <Image
+                src="/images/skills/typescript.png"
+                w="10vw"
+                maxWidth={"50px"}
+              />
+              <Image
+                src="/images/skills/Firebase.png"
+                w="10vw"
+                maxWidth={"50px"}
+              />
+            </Flex>
+            <Center><Link bg="#4DAEF9" borderRadius={"3xl"} p="2"><Flex><Image src="/images/skills/github.png"maxWidth={"25px"}/><Text alignContent={"center"}>Coming Soon</Text></Flex></Link></Center>
+          </Box>
+        </Grid>
       </section>
     </>
   );

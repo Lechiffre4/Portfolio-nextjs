@@ -1,5 +1,5 @@
 {
-    "jobs" : "Web Developer & Data Analyst",
+    "jobs" : "Data Analyst",
 
     "presentation1" : "Hello and welcome to my portfolio.",
     "presentation2" : "My name is Sahel HAOUCHET. I'm a French student of the Computer Science and 3D development of University Institutes of Technology of Le Puy-en-Velay, France.",
@@ -7,5 +7,13 @@
     "presentation4" : "As a data science and artificial intelligence enthousiast, I would like to work in this vast field and if it's possible link my job with my second passion, the nature.",
     "presentation5" : "Enjoy your journey in my website and feel free to contact me.",
 
-    "skills" : "Skills"
+    "skills" : "Skills",
+    "projects": "Projects",
+
+    "cinemates": "Cinemates",
+    "cinematesDescription" : "Cinemates is a cinephile website which allows you to get various informations about a film or get a randomly generated film.",
+
+    "SportSpot": "SportSpot",
+    "SportSpotDescription" : "The SportSpots mobile application aims to make it easier for outdoor sports enthusiasts to find “spots” suitable for their favorite sports via a google map. The application is community-based because users who have created an account can add, verify, rate and comment on spots."
+
 }
