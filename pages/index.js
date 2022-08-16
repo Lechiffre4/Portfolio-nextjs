@@ -435,23 +435,24 @@ export default function Home() {
             ></Box>
             <Flex justifyContent={"space-around"} mx={"25%"} mb="7">
               <Image
-                src="/images/skills/python.png"
+                src="/images/Skills/python.png"
                 w="10vw"
                 maxWidth={"50px"}
               />
               <Image
-                src="/images/skills/django.png"
+                src="/images/Skills/django.png"
                 w="10vw"
                 maxWidth={"50px"}
               />
               <Image
-                src="/images/skills/Firebase.png"
+                src="/images/Skills/Firebase.png"
                 w="10vw"
                 maxWidth={"50px"}
               />
             </Flex>
-            <Center><Link bg="#4DAEF9" target="_blank" href="https://github.com/Lechiffre4/Cinemates" borderRadius={"3xl"} p="2"><Flex><Image src="/images/skills/github.png"maxWidth={"25px"}/><Text alignContent={"center"}>Source Code</Text></Flex></Link></Center>
+            <Center><Link bg="#4DAEF9" target="_blank" href="https://github.com/Lechiffre4/Cinemates" borderRadius={"3xl"} p="2"><Flex><Image src="/images/Skills/github.png"maxWidth={"25px"}/><Text alignContent={"center"}>Source Code</Text></Flex></Link></Center>
           </Box>
+
           <Box bg={ProjectsContainer} pb={"10"}>
             <Image src="/images/projects/SportSpotBanner.png" w="100%" />
             <Text textAlign={"center"} fontSize={"2rem"} my="1">
@@ -480,22 +481,22 @@ export default function Home() {
             ></Box>
             <Flex justifyContent={"space-around"} mx={"25%"} mb="7">
               <Image
-                src="/images/skills/react.png"
+                src="/images/Skills/react.png"
                 w="10vw"
                 maxWidth={"50px"}
               />
               <Image
-                src="/images/skills/typescript.png"
+                src="/images/Skills/typescript.png"
                 w="10vw"
                 maxWidth={"50px"}
               />
               <Image
-                src="/images/skills/Firebase.png"
+                src="/images/Skills/Firebase.png"
                 w="10vw"
                 maxWidth={"50px"}
               />
             </Flex>
-            <Center><Link bg="#4DAEF9" borderRadius={"3xl"} p="2"><Flex><Image src="/images/skills/github.png"maxWidth={"25px"}/><Text alignContent={"center"}>Coming Soon</Text></Flex></Link></Center>
+            <Center><Link bg="#4DAEF9" borderRadius={"3xl"} p="2"><Flex><Image src="/images/Skills/github.png"maxWidth={"25px"}/><Text alignContent={"center"}>Coming Soon</Text></Flex></Link></Center>
           </Box>
 
           <Box bg={ProjectsContainer} pb={"10"}>
@@ -526,12 +527,12 @@ export default function Home() {
             ></Box>
             <Flex justifyContent={"space-around"} mx={"25%"} mb="7">
               <Image
-                src="/images/skills/python.png"
+                src="/images/Skills/python.png"
                 w="10vw"
                 maxWidth={"50px"}
               />
             </Flex>
-            <Center><Link bg="#4DAEF9" target="_blank" href="https://github.com/Lechiffre4/Alphonse_Twitter_Bot" borderRadius={"3xl"} p="2"><Flex><Image src="/images/skills/github.png"maxWidth={"25px"}/><Text alignContent={"center"}>Source Code</Text></Flex></Link></Center>
+            <Center><Link bg="#4DAEF9" target="_blank" href="https://github.com/Lechiffre4/Alphonse_Twitter_Bot" borderRadius={"3xl"} p="2"><Flex><Image src="/images/Skills/github.png"maxWidth={"25px"}/><Text alignContent={"center"}>Source Code</Text></Flex></Link></Center>
           </Box>
           <Box bg={ProjectsContainer} pb={"10"}>
             <Image src="/images/projects/Sky_AirLine_Corporation_banner.png" w="100%" />
@@ -561,17 +562,17 @@ export default function Home() {
             ></Box>
             <Flex justifyContent={"space-around"} mx={"25%"} mb="7">
               <Image
-                src="/images/skills/csharp.png"
+                src="/images/Skills/csharp.png"
                 w="10vw"
                 maxWidth={"50px"}
               />
               <Image
-                src="/images/skills/unity.png"
+                src="/images/Skills/unity.png"
                 w="10vw"
                 maxWidth={"50px"}
               />
             </Flex>
-            <Center><Link bg="#4DAEF9" target="_blank" href="https://github.com/Lechiffre4/SkyAirlineCorporation" borderRadius={"3xl"} p="2"><Flex><Image src="/images/skills/github.png"maxWidth={"25px"}/><Text alignContent={"center"}>Source Code</Text></Flex></Link></Center>
+            <Center><Link bg="#4DAEF9" target="_blank" href="https://github.com/Lechiffre4/SkyAirlineCorporation" borderRadius={"3xl"} p="2"><Flex><Image src="/images/Skills/github.png"maxWidth={"25px"}/><Text alignContent={"center"}>Source Code</Text></Flex></Link></Center>
           </Box>
         </Grid>
       </section>
