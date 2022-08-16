@@ -450,9 +450,8 @@ export default function Home() {
                 maxWidth={"50px"}
               />
             </Flex>
-            <Center><Link bg="#4DAEF9" href="https://github.com/Lechiffre4/Cinemates" borderRadius={"3xl"} p="2"><Flex><Image src="/images/skills/github.png"maxWidth={"25px"}/><Text alignContent={"center"}>Source Code</Text></Flex></Link></Center>
+            <Center><Link bg="#4DAEF9" target="_blank" href="https://github.com/Lechiffre4/Cinemates" borderRadius={"3xl"} p="2"><Flex><Image src="/images/skills/github.png"maxWidth={"25px"}/><Text alignContent={"center"}>Source Code</Text></Flex></Link></Center>
           </Box>
-
           <Box bg={ProjectsContainer} pb={"10"}>
             <Image src="/images/projects/SportSpotBanner.png" w="100%" />
             <Text textAlign={"center"} fontSize={"2rem"} my="1">
@@ -497,6 +496,82 @@ export default function Home() {
               />
             </Flex>
             <Center><Link bg="#4DAEF9" borderRadius={"3xl"} p="2"><Flex><Image src="/images/skills/github.png"maxWidth={"25px"}/><Text alignContent={"center"}>Coming Soon</Text></Flex></Link></Center>
+          </Box>
+
+          <Box bg={ProjectsContainer} pb={"10"}>
+            <Image src="/images/projects/alphonse.png" w="100%" />
+            <Text textAlign={"center"} fontSize={"2rem"} my="1">
+              {data.Alphonse}
+            </Text>
+            <Box
+              w="20"
+              h="1"
+              bg={"#F5F94D"}
+              mx={"auto"}
+              mb={"10"}
+              borderRadius={"lg"}
+            ></Box>
+            <Text textAlign={"center"} mx="5">{data.AlphonseDescription}</Text>
+
+            <Text textAlign={"center"} fontSize={"1.3rem"} mt={10}>
+              Teck Stack
+            </Text>
+            <Box
+              w="20"
+              h="1"
+              bg={"#F5F94D"}
+              mx={"auto"}
+              mb={"5"}
+              borderRadius={"lg"}
+            ></Box>
+            <Flex justifyContent={"space-around"} mx={"25%"} mb="7">
+              <Image
+                src="/images/skills/python.png"
+                w="10vw"
+                maxWidth={"50px"}
+              />
+            </Flex>
+            <Center><Link bg="#4DAEF9" target="_blank" href="https://github.com/Lechiffre4/Alphonse_Twitter_Bot" borderRadius={"3xl"} p="2"><Flex><Image src="/images/skills/github.png"maxWidth={"25px"}/><Text alignContent={"center"}>Source Code</Text></Flex></Link></Center>
+          </Box>
+          <Box bg={ProjectsContainer} pb={"10"}>
+            <Image src="/images/projects/Sky_AirLine_Corporation_banner.png" w="100%" />
+            <Text textAlign={"center"} fontSize={"2rem"} my="1">
+              {data.SkyAirLine}
+            </Text>
+            <Box
+              w="20"
+              h="1"
+              bg={"#F5F94D"}
+              mx={"auto"}
+              mb={"10"}
+              borderRadius={"lg"}
+            ></Box>
+            <Text textAlign={"center"} mx="5">{data.SkyAirLineDescription}</Text>
+
+            <Text textAlign={"center"} fontSize={"1.3rem"} mt={10}>
+              Teck Stack
+            </Text>
+            <Box
+              w="20"
+              h="1"
+              bg={"#F5F94D"}
+              mx={"auto"}
+              mb={"5"}
+              borderRadius={"lg"}
+            ></Box>
+            <Flex justifyContent={"space-around"} mx={"25%"} mb="7">
+              <Image
+                src="/images/skills/csharp.png"
+                w="10vw"
+                maxWidth={"50px"}
+              />
+              <Image
+                src="/images/skills/unity.png"
+                w="10vw"
+                maxWidth={"50px"}
+              />
+            </Flex>
+            <Center><Link bg="#4DAEF9" target="_blank" href="https://github.com/Lechiffre4/SkyAirlineCorporation" borderRadius={"3xl"} p="2"><Flex><Image src="/images/skills/github.png"maxWidth={"25px"}/><Text alignContent={"center"}>Source Code</Text></Flex></Link></Center>
           </Box>
         </Grid>
       </section>
