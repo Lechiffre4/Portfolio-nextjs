@@ -426,6 +426,7 @@ export default function Home() {
               mb={"10"}
               borderRadius={"lg"}
             ></Box>
+            <SimpleGrid columns={1}>
             <Text textAlign={"center"} mx="5" h="20%">{data.cinematesDescription}</Text>
 
             <Text textAlign={"center"} fontSize={"1.3rem"} mt={10}>
@@ -457,6 +458,7 @@ export default function Home() {
               />
             </Flex>
             <Center><Link bg="#4DAEF9" target="_blank" href="https://github.com/Lechiffre4/Cinemates" borderRadius={"3xl"} p="2"><Flex><Image src="/images/Skills/github.png"maxWidth={"25px"}/><Text alignContent={"center"}>Source Code</Text></Flex></Link></Center>
+            </SimpleGrid>
           </Box>
           <Box bg={ProjectsContainer} pb={"10"}>
             <Image src="/images/projects/SportSpotBanner.png" w="100%" />
@@ -471,6 +473,7 @@ export default function Home() {
               mb={"10"}
               borderRadius={"lg"}
             ></Box>
+            <SimpleGrid columns={1}>
             <Text textAlign={"center"} mx="5" h="20%">{data.SportSpotDescription}</Text>
 
             <Text textAlign={"center"} fontSize={"1.3rem"} mt={10}>
@@ -502,6 +505,7 @@ export default function Home() {
               />
             </Flex>
             <Center><Link bg="#4DAEF9" borderRadius={"3xl"} p="2"><Flex><Image src="/images/Skills/github.png"maxWidth={"25px"}/><Text alignContent={"center"}>Coming Soon</Text></Flex></Link></Center>
+            </SimpleGrid>
           </Box>
 
           <Box bg={ProjectsContainer} pb={"10"}>
@@ -517,6 +521,7 @@ export default function Home() {
               mb={"10"}
               borderRadius={"lg"}
             ></Box>
+            <SimpleGrid columns={1}>
             <Text textAlign={"center"} mx="5" h="20%">{data.AlphonseDescription}</Text>
 
             <Text textAlign={"center"} fontSize={"1.3rem"} mt={10}>
@@ -538,6 +543,7 @@ export default function Home() {
               />
             </Flex>
             <Center><Link bg="#4DAEF9" target="_blank" href="https://github.com/Lechiffre4/Alphonse_Twitter_Bot" borderRadius={"3xl"} p="2"><Flex><Image src="/images/Skills/github.png"maxWidth={"25px"}/><Text alignContent={"center"}>Source Code</Text></Flex></Link></Center>
+            </SimpleGrid>
           </Box>
           <Box bg={ProjectsContainer} pb={"10"}>
             <Image src="/images/projects/Sky_AirLine_Corporation_banner.png" w="100%" />
@@ -552,6 +558,7 @@ export default function Home() {
               mb={"10"}
               borderRadius={"lg"}
             ></Box>
+            <SimpleGrid columns={1}>
             <Text textAlign={"center"} mx="5" h="20%">{data.SkyAirLineDescription}</Text>
 
             <Text textAlign={"center"} fontSize={"1.3rem"} mt={10}>
@@ -578,6 +585,7 @@ export default function Home() {
               />
             </Flex>
             <Center><Link bg="#4DAEF9" target="_blank" href="https://github.com/Lechiffre4/SkyAirlineCorporation" borderRadius={"3xl"} p="2"><Flex><Image src="/images/Skills/github.png"maxWidth={"25px"}/><Text alignContent={"center"}>Source Code</Text></Flex></Link></Center>
+            </SimpleGrid>
           </Box>
 
           <Box bg={ProjectsContainer} pb={"10"}>
@@ -593,6 +601,7 @@ export default function Home() {
               mb={"10"}
               borderRadius={"lg"}
             ></Box>
+            <SimpleGrid columns={1}>
             <Text textAlign={"center"} mx="5" h="20%">{data.TamagotchiDescription}</Text>
 
             <Text textAlign={"center"} fontSize={"1.3rem"} mt={10}>
@@ -614,6 +623,7 @@ export default function Home() {
               />
             </Flex>
             <Center><Link bg="#4DAEF9" target="_blank" href="https://github.com/Lechiffre4/Android-tamagotchi" borderRadius={"3xl"} p="2"><Flex><Image src="/images/Skills/github.png"maxWidth={"25px"}/><Text alignContent={"center"}>Source Code</Text></Flex></Link></Center>
+            </SimpleGrid>          
           </Box>
           <Box bg={ProjectsContainer} pb={"10"}>
             <Image src="/images/projects/Portfolio_banner.png" w="100%" />
@@ -628,6 +638,7 @@ export default function Home() {
               mb={"10"}
               borderRadius={"lg"}
             ></Box>
+            <SimpleGrid columns={1}>
             <Text textAlign={"center"} mx="5" h="20%">{data.PortfolioDescription}</Text>
 
             <Text textAlign={"center"} fontSize={"1.3rem"} mt={10}>
@@ -654,6 +665,7 @@ export default function Home() {
               />
             </Flex>
             <Center><Link bg="#4DAEF9" target="_blank" href="https://github.com/Lechiffre4/Portfolio-nextjs" borderRadius={"3xl"} p="2"><Flex><Image src="/images/Skills/github.png"maxWidth={"25px"}/><Text alignContent={"center"}>Source Code</Text></Flex></Link></Center>
+            </SimpleGrid>
           </Box>
 
           <Box bg={ProjectsContainer} pb={"10"}>
@@ -669,6 +681,7 @@ export default function Home() {
               mb={"10"}
               borderRadius={"lg"}
             ></Box>
+            <SimpleGrid columns={1}>
             <Text textAlign={"center"} mx="5" h="20%">{data.SpeechRecognitionDescription}</Text>
 
             <Text textAlign={"center"} fontSize={"1.3rem"} mt={10}>
@@ -690,6 +703,7 @@ export default function Home() {
               />
             </Flex>
             <Center><Link bg="#4DAEF9" target="_blank" href="https://github.com/Lechiffre4/Android-tamagotchi" borderRadius={"3xl"} p="2"><Flex><Image src="/images/Skills/github.png"maxWidth={"25px"}/><Text alignContent={"center"}>Source Code</Text></Flex></Link></Center>
+            </SimpleGrid>
           </Box>
           <Box bg={ProjectsContainer} pb={"10"}>
             <Image src="/images/projects/FaceRecognition_banner.png" w="100%" />
@@ -704,28 +718,30 @@ export default function Home() {
               mb={"10"}
               borderRadius={"lg"}
             ></Box>
-            <Text textAlign={"center"} mx="5" h="20%">{data.FaceRecognitionDescription}</Text>
+            <SimpleGrid columns={1}>
+              <Text textAlign={"center"} mx="5" h="20%">{data.FaceRecognitionDescription}</Text>
 
-            <Text textAlign={"center"} fontSize={"1.3rem"} mt={10}>
-              Teck Stack
-            </Text>
-            <Box
-              w="20"
-              h="1"
-              bg={"#F5F94D"}
-              mx={"auto"}
-              mb={"5"}
-              borderRadius={"lg"}
-            ></Box>
-            <Flex justifyContent={"space-around"} mx={"25%"} mb="7">
-              
-              <Image
-                src="/images/Skills/python.png"
-                w="10vw"
-                maxWidth={"50px"}
-              />
-            </Flex>
-            <Center><Link bg="#4DAEF9" target="_blank" href="https://github.com/Lechiffre4/Portfolio-nextjs" borderRadius={"3xl"} p="2"><Flex><Image src="/images/Skills/github.png"maxWidth={"25px"}/><Text alignContent={"center"}>Source Code</Text></Flex></Link></Center>
+              <Text textAlign={"center"} fontSize={"1.3rem"} mt={10}>
+                Teck Stack
+              </Text>
+              <Box
+                w="20"
+                h="1"
+                bg={"#F5F94D"}
+                mx={"auto"}
+                mb={"5"}
+                borderRadius={"lg"}
+              ></Box>
+              <Flex justifyContent={"space-around"} mx={"25%"} mb="7">
+
+                <Image
+                  src="/images/Skills/python.png"
+                  w="10vw"
+                  maxWidth={"50px"}
+                />
+              </Flex>
+              <Center><Link bg="#4DAEF9" target="_blank" href="https://github.com/Lechiffre4/Portfolio-nextjs" borderRadius={"3xl"} p="2"><Flex><Image src="/images/Skills/github.png"maxWidth={"25px"}/><Text alignContent={"center"}>Source Code</Text></Flex></Link></Center>
+            </SimpleGrid>
           </Box>
 
           </SimpleGrid>

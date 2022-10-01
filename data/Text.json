@@ -29,7 +29,7 @@
     "PortfolioDescription" : "This website is my portfolio. It was made with NextJS and ChakraUI. I used this technology to improve my skills in back-end development and to learn front-end development.",
 
     "SpeechRecognition": "Speech Recognition",
-    "SpeechRecognitionDescription" : "This project is a speech recognition program which is able to do many thing with a simple vocal line. I use this program as a vocal macro to open multiple website at the same time for exemple. You can use this program by opening the executable file and talk. This project is under maintenance, I want to add multiple actions and add a small interface.",
+    "SpeechRecognitionDescription" : "This project is a speech recognition program which is able to do many thing with a simple vocal line. I use this program as a vocal macro to open multiple website at the same time for exemple. You can use this program by opening the executable file and talk.",
 
     "FaceRecognition": "Face Recognition",
     "FaceRecognitionDescription" : "This project is a face recognition program which is able to recognize a face and say the name of the person. I use Python3 and OpenCV to make this project."
