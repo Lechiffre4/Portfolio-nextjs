@@ -283,6 +283,9 @@ export default function Home() {
         </Flex>
       </section>
 
+
+
+
       <section style={{ position: "relative", marginTop: "10%" }} id="skills">
         <Container
           w={"fit-content"}
@@ -336,6 +339,7 @@ export default function Home() {
                   maxWidth={"60px"}
                 />
                 <Image src="/images/Skills/js.png" w="10vw" maxWidth={"60px"} />
+                <Image src="/images/Skills/java.png" w="10vw" maxWidth={"60px"} />
               </HStack>
               <HStack justifyContent={"center"} my={"2"}>
                 <Image
@@ -406,8 +410,9 @@ export default function Home() {
           <Text>{data.projects}</Text>
         </Container>
 
-        <Grid templateColumns="repeat(2, 1fr)" mx={"10%"} my={"10%"} gap={6}>
-        <Box bg={ProjectsContainer} pb={"10"}>
+        <Flex pt="10">
+
+          <Box bg={ProjectsContainer} pb={"10"}>
             <Image src="/images/projects/CinematesBanner.png" w="100%" />
             <Text textAlign={"center"} fontSize={"2rem"} my="1">
               {data.cinemates}
@@ -574,7 +579,80 @@ export default function Home() {
             </Flex>
             <Center><Link bg="#4DAEF9" target="_blank" href="https://github.com/Lechiffre4/SkyAirlineCorporation" borderRadius={"3xl"} p="2"><Flex><Image src="/images/Skills/github.png"maxWidth={"25px"}/><Text alignContent={"center"}>Source Code</Text></Flex></Link></Center>
           </Box>
-        </Grid>
+
+          <Box bg={ProjectsContainer} pb={"10"}>
+            <Image src="/images/projects/MockupTamagotchi_banner.png" w="100%" />
+            <Text textAlign={"center"} fontSize={"2rem"} my="1">
+              {data.Tamagotchi}
+            </Text>
+            <Box
+              w="20"
+              h="1"
+              bg={"#F5F94D"}
+              mx={"auto"}
+              mb={"10"}
+              borderRadius={"lg"}
+            ></Box>
+            <Text textAlign={"center"} mx="5">{data.TamagotchiDescription}</Text>
+
+            <Text textAlign={"center"} fontSize={"1.3rem"} mt={10}>
+              Teck Stack
+            </Text>
+            <Box
+              w="20"
+              h="1"
+              bg={"#F5F94D"}
+              mx={"auto"}
+              mb={"5"}
+              borderRadius={"lg"}
+            ></Box>
+            <Flex justifyContent={"space-around"} mx={"25%"} mb="7">
+              <Image
+                src="/images/Skills/java.png"
+                w="10vw"
+                maxWidth={"50px"}
+              />
+            </Flex>
+            <Center><Link bg="#4DAEF9" target="_blank" href="https://github.com/Lechiffre4/Android-tamagotchi" borderRadius={"3xl"} p="2"><Flex><Image src="/images/Skills/github.png"maxWidth={"25px"}/><Text alignContent={"center"}>Source Code</Text></Flex></Link></Center>
+          </Box>
+
+          <Box bg={ProjectsContainer} pb={"10"}>
+            <Image src="/images/projects/MockupTamagotchi_banner.png" w="100%" />
+            <Text textAlign={"center"} fontSize={"2rem"} my="1">
+              {data.Tamagotchi}
+            </Text>
+            <Box
+              w="20"
+              h="1"
+              bg={"#F5F94D"}
+              mx={"auto"}
+              mb={"10"}
+              borderRadius={"lg"}
+            ></Box>
+            <Text textAlign={"center"} mx="5">{data.TamagotchiDescription}</Text>
+
+            <Text textAlign={"center"} fontSize={"1.3rem"} mt={10}>
+              Teck Stack
+            </Text>
+            <Box
+              w="20"
+              h="1"
+              bg={"#F5F94D"}
+              mx={"auto"}
+              mb={"5"}
+              borderRadius={"lg"}
+            ></Box>
+            <Flex justifyContent={"space-around"} mx={"25%"} mb="7">
+              <Image
+                src="/images/Skills/java.png"
+                w="10vw"
+                maxWidth={"50px"}
+              />
+            </Flex>
+            <Center><Link bg="#4DAEF9" target="_blank" href="https://github.com/Lechiffre4/Android-tamagotchi" borderRadius={"3xl"} p="2"><Flex><Image src="/images/Skills/github.png"maxWidth={"25px"}/><Text alignContent={"center"}>Source Code</Text></Flex></Link></Center>
+          </Box>
+
+          </Flex>
       </section>
     </>
   );

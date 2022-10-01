@@ -20,6 +20,8 @@
     "AlphonseDescription" : "Alphonse is a Twitter Bot made in Python 3. He post everyday a random sentence starting with \"Life is\" and ending with a random word in the english dictionnary. I also made him to be able to analyse general ambiance on a specific hashtag based on the last 250 tweets. To analyse a hastag, you can mention him with the hashtag you want to analyse.",
 
     "SkyAirLine": "SkyAirLine Corp",
-    "SkyAirLineDescription" : "SkyAirLine Corporation is a real physics-based airplane game where you can roam freely, extinguish forest fires in Fire Fighting Airplane mode, deliver packages or even do stunts with an aerobatic plane. This game was made in Unity3D with a team of 7 developpers and 3D modelers. We used the Agile method and I was the Scrum Master of this project."
+    "SkyAirLineDescription" : "SkyAirLine Corporation is a real physics-based airplane game where you can roam freely, extinguish forest fires in Fire Fighting Airplane mode, deliver packages or even do stunts with an aerobatic plane. This game was made in Unity3D with a team of 7 developpers and 3D modelers. We used the Agile method and I was the Scrum Master of this project.",
 
+    "Tamagotchi": "Tamagotchi",
+    "TamagotchiDescription" : "Tamagotchi is a virtual pet game made in Java with android studio. This project is a reproduction of the famous Tamagotchi game on mobile. The aim of application is to educate young people about drugs and cigarettes."
 }
