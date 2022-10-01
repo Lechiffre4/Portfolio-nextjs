@@ -4,6 +4,7 @@ import Nav from '../components/navbar'
 import Footer from '../components/footer'
 import Head from 'next/head'
 import "../styles/globals.css"
+import GoogleAnalytics from '@bradgarropy/next-google-analytics'
 
 
 
@@ -19,6 +20,7 @@ function MyApp({ Component, pageProps }) {
       <Nav />
       <Component {...pageProps} />
       <Footer />
+      <GoogleAnalytics measurementId='G-GPSFYXPZBF'/>
     </ChakraProvider>
 
   )
