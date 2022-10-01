@@ -2,7 +2,7 @@
     "jobs" : "Data Analyst",
 
     "presentation1" : "Hello and welcome to my portfolio.",
-    "presentation2" : "My name is Sahel HAOUCHET. I'm a French student of the Computer Science and Big Data in the university Lyon1 at Lyon in France.",
+    "presentation2" : "My name is Sahel HAOUCHET. I'm a French student of the Computer Science and Big Data in the university Lyon 1 at Lyon in France.",
     "presentation3" : "I'm a passionate about data and work curently as an student-apprentis in the company Equans as a Data Manager.",
     "presentation4" : "As a data science and artificial intelligence enthousiast, I would like to work in this vast field and if it's possible link my job with my second passion, the nature.",
     "presentation5" : "Enjoy your journey in my website and feel free to contact me.",
@@ -11,7 +11,7 @@
     "projects": "Projects",
 
     "cinemates": "Cinemates",
-    "cinematesDescription" : "CineMates is a website that use the web scraping get informations about movies like the synopsis, the picture, the creators and even the marks of the users. Cinemates allows you also to generate a random film based on your preferences.",
+    "cinematesDescription" : "Cinemates is a website that use the web scraping get informations about movies like the synopsis, the picture, the creators and even the marks of the users. Cinemates allows you also to generate a random film based on your preferences.",
 
     "SportSpots": "SportSpots",
     "SportSpotDescription" : "The SportSpots mobile application aims to make it easier for outdoor sports enthusiasts to find “spots” suitable for their favorite sports via a google map. The application is community-based because users who have created an account can add, verify, rate and comment on spots.",
@@ -20,7 +20,7 @@
     "AlphonseDescription" : "Alphonse is a Twitter Bot made in Python 3. He post everyday a random sentence starting with \"Life is\" and ending with a random word in the english dictionnary. I also made him to be able to analyse general ambiance on a specific hashtag based on the last 250 tweets. To analyse a hastag, you can mention him with the hashtag you want to analyse.",
 
     "SkyAirLine": "SkyAirLine Corp",
-    "SkyAirLineDescription" : "SkyAirLine Corporation is a real physics-based airplane game where you can roam freely, extinguish forest fires in Fire Fighting Airplane mode, deliver packages or even do stunts with an aerobatic plane. This game was made in Unity3D with a team of 7 developpers and 3D modelers. We used the Agile method and I was the Scrum Master of this project.",
+    "SkyAirLineDescription" : "SkyAirLine Corp is a real physics-based airplane game where you can roam freely, extinguish forest fires in Fire Fighting Airplane mode, deliver packages or even do stunts with an aerobatic plane. This game was made in Unity3D with a team of 7 developpers and 3D modelers. We used the Agile method and I was the Scrum Master of this project.",
 
     "Tamagotchi": "Tamagotchi",
     "TamagotchiDescription" : "Tamagotchi is a virtual pet game made in Java with android studio. This project is a reproduction of the famous Tamagotchi game on mobile. The aim of application is to educate young people about drugs and cigarettes.",
