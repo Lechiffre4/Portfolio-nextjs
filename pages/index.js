@@ -274,11 +274,11 @@ export default function Home() {
             className="presentation-Text"
           >
             <Flex justifyContent="center" flexDirection="column">
-              <Text my="5">{data.presentation1}</Text>
-              <Text my="5">{data.presentation2}</Text>
-              <Text my="5">{data.presentation3}</Text>
-              <Text my="5">{data.presentation4}</Text>
-              <Text my="5">{data.presentation5}</Text>
+              <Text textAlign="justify" my="5">{data.presentation1}</Text>
+              <Text textAlign="justify"  my="5">{data.presentation2}</Text>
+              <Text textAlign="justify"  my="5">{data.presentation3}</Text>
+              <Text textAlign="justify"  my="5">{data.presentation4}</Text>
+              <Text textAlign="justify"  my="5">{data.presentation5}</Text>
             </Flex>
           </Container>
         </Flex>
