@@ -615,11 +615,10 @@ export default function Home() {
             </Flex>
             <Center><Link bg="#4DAEF9" target="_blank" href="https://github.com/Lechiffre4/Android-tamagotchi" borderRadius={"3xl"} p="2"><Flex><Image src="/images/Skills/github.png"maxWidth={"25px"}/><Text alignContent={"center"}>Source Code</Text></Flex></Link></Center>
           </Box>
-
           <Box bg={ProjectsContainer} pb={"10"}>
-            <Image src="/images/projects/MockupTamagotchi_banner.png" w="100%" />
+            <Image src="/images/projects/Portfolio_banner.png" w="100%" />
             <Text textAlign={"center"} fontSize={"2rem"} my="1">
-              {data.Tamagotchi}
+              {data.Portfolio}
             </Text>
             <Box
               w="20"
@@ -629,7 +628,7 @@ export default function Home() {
               mb={"10"}
               borderRadius={"lg"}
             ></Box>
-            <Text textAlign={"center"} mx="5">{data.TamagotchiDescription}</Text>
+            <Text textAlign={"center"} mx="5">{data.PortfolioDescription}</Text>
 
             <Text textAlign={"center"} fontSize={"1.3rem"} mt={10}>
               Teck Stack
@@ -644,12 +643,89 @@ export default function Home() {
             ></Box>
             <Flex justifyContent={"space-around"} mx={"25%"} mb="7">
               <Image
-                src="/images/Skills/java.png"
+                src="/images/Skills/nextjs.png"
+                w="10vw"
+                maxWidth={"50px"}
+              />
+              <Image
+                src="/images/Skills/js.png"
+                w="10vw"
+                maxWidth={"50px"}
+              />
+            </Flex>
+            <Center><Link bg="#4DAEF9" target="_blank" href="https://github.com/Lechiffre4/Portfolio-nextjs" borderRadius={"3xl"} p="2"><Flex><Image src="/images/Skills/github.png"maxWidth={"25px"}/><Text alignContent={"center"}>Source Code</Text></Flex></Link></Center>
+          </Box>
+
+          <Box bg={ProjectsContainer} pb={"10"}>
+            <Image src="/images/projects/speech_recognition_banner.png" w="100%" />
+            <Text textAlign={"center"} fontSize={"2rem"} my="1">
+              {data.SpeechRecognition}
+            </Text>
+            <Box
+              w="20"
+              h="1"
+              bg={"#F5F94D"}
+              mx={"auto"}
+              mb={"10"}
+              borderRadius={"lg"}
+            ></Box>
+            <Text textAlign={"center"} mx="5">{data.SpeechRecognitionDescription}</Text>
+
+            <Text textAlign={"center"} fontSize={"1.3rem"} mt={10}>
+              Teck Stack
+            </Text>
+            <Box
+              w="20"
+              h="1"
+              bg={"#F5F94D"}
+              mx={"auto"}
+              mb={"5"}
+              borderRadius={"lg"}
+            ></Box>
+            <Flex justifyContent={"space-around"} mx={"25%"} mb="7">
+              <Image
+                src="/images/Skills/python.png"
                 w="10vw"
                 maxWidth={"50px"}
               />
             </Flex>
             <Center><Link bg="#4DAEF9" target="_blank" href="https://github.com/Lechiffre4/Android-tamagotchi" borderRadius={"3xl"} p="2"><Flex><Image src="/images/Skills/github.png"maxWidth={"25px"}/><Text alignContent={"center"}>Source Code</Text></Flex></Link></Center>
+          </Box>
+          <Box bg={ProjectsContainer} pb={"10"}>
+            <Image src="/images/projects/FaceRecognition_banner.png" w="100%" />
+            <Text textAlign={"center"} fontSize={"2rem"} my="1">
+              {data.FaceRecognition}
+            </Text>
+            <Box
+              w="20"
+              h="1"
+              bg={"#F5F94D"}
+              mx={"auto"}
+              mb={"10"}
+              borderRadius={"lg"}
+            ></Box>
+            <Text textAlign={"center"} mx="5">{data.FaceRecognitionDescription}</Text>
+
+            <Text textAlign={"center"} fontSize={"1.3rem"} mt={10}>
+              Teck Stack
+            </Text>
+            <Box
+              w="20"
+              h="1"
+              bg={"#F5F94D"}
+              mx={"auto"}
+              mb={"5"}
+              borderRadius={"lg"}
+            ></Box>
+            <Flex justifyContent={"space-around"} mx={"25%"} mb="7">
+              
+              <Image
+                src="/images/Skills/python.png"
+                w="10vw"
+                maxWidth={"50px"}
+              />
+            </Flex>
+            <Center><Link bg="#4DAEF9" target="_blank" href="https://github.com/Lechiffre4/Portfolio-nextjs" borderRadius={"3xl"} p="2"><Flex><Image src="/images/Skills/github.png"maxWidth={"25px"}/><Text alignContent={"center"}>Source Code</Text></Flex></Link></Center>
           </Box>
 
           </Flex>
