@@ -25,6 +25,7 @@ import {
   HStack,
   Grid,
   GridItem,
+  SimpleGrid
 } from "@chakra-ui/react";
 
 import { Container } from "@chakra-ui/react";
@@ -410,7 +411,7 @@ export default function Home() {
           <Text>{data.projects}</Text>
         </Container>
 
-        <Flex pt="10">
+        <SimpleGrid columns={[1,2]} pt="10" px="15%" spacing={10}>
 
           <Box bg={ProjectsContainer} pb={"10"}>
             <Image src="/images/projects/CinematesBanner.png" w="100%" />
@@ -425,7 +426,7 @@ export default function Home() {
               mb={"10"}
               borderRadius={"lg"}
             ></Box>
-            <Text textAlign={"center"} mx="5">{data.cinematesDescription}</Text>
+            <Text textAlign={"center"} mx="5" h="20%">{data.cinematesDescription}</Text>
 
             <Text textAlign={"center"} fontSize={"1.3rem"} mt={10}>
               Teck Stack
@@ -457,7 +458,6 @@ export default function Home() {
             </Flex>
             <Center><Link bg="#4DAEF9" target="_blank" href="https://github.com/Lechiffre4/Cinemates" borderRadius={"3xl"} p="2"><Flex><Image src="/images/Skills/github.png"maxWidth={"25px"}/><Text alignContent={"center"}>Source Code</Text></Flex></Link></Center>
           </Box>
-
           <Box bg={ProjectsContainer} pb={"10"}>
             <Image src="/images/projects/SportSpotBanner.png" w="100%" />
             <Text textAlign={"center"} fontSize={"2rem"} my="1">
@@ -471,7 +471,7 @@ export default function Home() {
               mb={"10"}
               borderRadius={"lg"}
             ></Box>
-            <Text textAlign={"center"} mx="5">{data.SportSpotDescription}</Text>
+            <Text textAlign={"center"} mx="5" h="20%">{data.SportSpotDescription}</Text>
 
             <Text textAlign={"center"} fontSize={"1.3rem"} mt={10}>
               Teck Stack
@@ -517,7 +517,7 @@ export default function Home() {
               mb={"10"}
               borderRadius={"lg"}
             ></Box>
-            <Text textAlign={"center"} mx="5">{data.AlphonseDescription}</Text>
+            <Text textAlign={"center"} mx="5" h="20%">{data.AlphonseDescription}</Text>
 
             <Text textAlign={"center"} fontSize={"1.3rem"} mt={10}>
               Teck Stack
@@ -552,7 +552,7 @@ export default function Home() {
               mb={"10"}
               borderRadius={"lg"}
             ></Box>
-            <Text textAlign={"center"} mx="5">{data.SkyAirLineDescription}</Text>
+            <Text textAlign={"center"} mx="5" h="20%">{data.SkyAirLineDescription}</Text>
 
             <Text textAlign={"center"} fontSize={"1.3rem"} mt={10}>
               Teck Stack
@@ -593,7 +593,7 @@ export default function Home() {
               mb={"10"}
               borderRadius={"lg"}
             ></Box>
-            <Text textAlign={"center"} mx="5">{data.TamagotchiDescription}</Text>
+            <Text textAlign={"center"} mx="5" h="20%">{data.TamagotchiDescription}</Text>
 
             <Text textAlign={"center"} fontSize={"1.3rem"} mt={10}>
               Teck Stack
@@ -628,7 +628,7 @@ export default function Home() {
               mb={"10"}
               borderRadius={"lg"}
             ></Box>
-            <Text textAlign={"center"} mx="5">{data.PortfolioDescription}</Text>
+            <Text textAlign={"center"} mx="5" h="20%">{data.PortfolioDescription}</Text>
 
             <Text textAlign={"center"} fontSize={"1.3rem"} mt={10}>
               Teck Stack
@@ -669,7 +669,7 @@ export default function Home() {
               mb={"10"}
               borderRadius={"lg"}
             ></Box>
-            <Text textAlign={"center"} mx="5">{data.SpeechRecognitionDescription}</Text>
+            <Text textAlign={"center"} mx="5" h="20%">{data.SpeechRecognitionDescription}</Text>
 
             <Text textAlign={"center"} fontSize={"1.3rem"} mt={10}>
               Teck Stack
@@ -704,7 +704,7 @@ export default function Home() {
               mb={"10"}
               borderRadius={"lg"}
             ></Box>
-            <Text textAlign={"center"} mx="5">{data.FaceRecognitionDescription}</Text>
+            <Text textAlign={"center"} mx="5" h="20%">{data.FaceRecognitionDescription}</Text>
 
             <Text textAlign={"center"} fontSize={"1.3rem"} mt={10}>
               Teck Stack
@@ -728,7 +728,7 @@ export default function Home() {
             <Center><Link bg="#4DAEF9" target="_blank" href="https://github.com/Lechiffre4/Portfolio-nextjs" borderRadius={"3xl"} p="2"><Flex><Image src="/images/Skills/github.png"maxWidth={"25px"}/><Text alignContent={"center"}>Source Code</Text></Flex></Link></Center>
           </Box>
 
-          </Flex>
+          </SimpleGrid>
       </section>
     </>
   );
