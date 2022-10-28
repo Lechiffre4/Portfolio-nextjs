@@ -25,11 +25,13 @@ import {
   HStack,
   Grid,
   GridItem,
-  SimpleGrid
+  SimpleGrid,
+  VStack
 } from "@chakra-ui/react";
 
 import { Container } from "@chakra-ui/react";
 import { ChevronDownIcon, ChevronUpIcon } from "@chakra-ui/icons";
+import MapModule from "../components/MapModule";
 
 export default function Home() {
   const { colorMode, toggleColorMode } = useColorMode()
@@ -283,8 +285,6 @@ export default function Home() {
           </Container>
         </Flex>
       </section>
-
-
 
 
       <section style={{ position: "relative", marginTop: "10%" }} id="skills">
@@ -745,6 +745,47 @@ export default function Home() {
           </Box>
 
           </SimpleGrid>
+      </section>
+
+      <section style={{ position: "relative", marginTop: "10%" }} id="projects">
+        <Container
+          w={"fit-content"}
+          px={"10%"}
+          py={2}
+          bg={SkillContainer}
+          fontStyle={"italic"}
+          textAlign={"center"}
+          alignContent={"center"}
+          style={{
+            zIndex: "15",
+            fontSize: "2.5rem",
+          }}
+        >
+          <Text>{data.MapTitle}</Text>
+        </Container>
+        <Box w="80vw" mx="auto" pt={10}>
+          <MapModule />
+          <Box bg={ProjectsContainer} h="fit-content" >
+            <HStack alignContent="center" justifyContent="center" p="2">
+                <Image src="/images/Markers/bleu.png" w={50} h={50} />
+                <Text textAlign="start" fontSize={"1rem"} my="1">
+                  {data.MapList1}
+                </Text>
+                        
+                <Image src="/images/Markers/jaune.png" w={50} h={50} />
+                <Text textAlign="start" fontSize={"1rem"} my="1">
+                  {data.MapList2}
+                </Text>
+              
+                <Image src="/images/Markers/vert.png" w={50} h={50} />
+                <Text  fontSize={"1rem"} my="1">
+                  {data.MapList3}
+                </Text>     
+            </HStack>
+          </Box>
+        </Box>
+        
+        
       </section>
     </>
   );

@@ -32,5 +32,10 @@
     "SpeechRecognitionDescription" : "This project is a speech recognition program which is able to do many thing with a simple vocal line. I use this program as a vocal macro to open multiple website at the same time for exemple. You can use this program by opening the executable file and talk.",
 
     "FaceRecognition": "Face Recognition",
-    "FaceRecognitionDescription" : "This project is a face recognition program which is able to recognize a face and say the name of the person. I use Python3 and OpenCV to make this project."
+    "FaceRecognitionDescription" : "This project is a face recognition program which is able to recognize a face and say the name of the person. I use Python3 and OpenCV to make this project.",
+
+    "MapTitle" : "My location",
+    "MapList1" : "Old work places",
+    "MapList2" : "Old schools",
+    "MapList3" : "Current School"
 }
