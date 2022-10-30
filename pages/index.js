@@ -767,18 +767,18 @@ export default function Home() {
           <MapModule />
           <Box bg={ProjectsContainer} h="fit-content" >
             <HStack alignContent="center" justifyContent="center" p="2">
-                <Image src="/images/Markers/bleu.png" w={50} h={50} />
-                <Text textAlign="start" fontSize={"1rem"} my="1">
+                <Image src="/images/Markers/bleu.png" w={10}/>
+                <Text  textAlign="center" fontSize={"0.8rem"} my="1">
                   {data.MapList1}
                 </Text>
                         
-                <Image src="/images/Markers/Jaune.png" w={50} h={50} />
-                <Text textAlign="start" fontSize={"1rem"} my="1">
+                <Image src="/images/Markers/Jaune.png" w={10}/>
+                <Text textAlign="center" fontSize={"0.8rem"} my="1">
                   {data.MapList2}
                 </Text>
               
-                <Image src="/images/Markers/Vert.png" w={50} h={50} />
-                <Text  fontSize={"1rem"} my="1">
+                <Image src="/images/Markers/Vert.png" w={10}/>
+                <Text textAlign="center" fontSize={"0.8rem"} my="1">
                   {data.MapList3}
                 </Text>     
             </HStack>
