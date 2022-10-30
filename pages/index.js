@@ -772,12 +772,12 @@ export default function Home() {
                   {data.MapList1}
                 </Text>
                         
-                <Image src="/images/Markers/jaune.png" w={50} h={50} />
+                <Image src="/images/Markers/Jaune.png" w={50} h={50} />
                 <Text textAlign="start" fontSize={"1rem"} my="1">
                   {data.MapList2}
                 </Text>
               
-                <Image src="/images/Markers/vert.png" w={50} h={50} />
+                <Image src="/images/Markers/Vert.png" w={50} h={50} />
                 <Text  fontSize={"1rem"} my="1">
                   {data.MapList3}
                 </Text>     
