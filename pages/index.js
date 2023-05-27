@@ -132,7 +132,7 @@ export default function Home() {
 							style={{
 								position: "absolute",
 								top: "95%",
-								right: "10%",
+								right: "7%",
 								zIndex: "0",
 							}}
 						></Container>
@@ -143,7 +143,7 @@ export default function Home() {
 							style={{
 								position: "absolute",
 								top: "90%",
-								right: "8%",
+								right: "5%",
 								zIndex: "0",
 								transform: "rotate(90deg)",
 							}}
