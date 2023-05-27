@@ -5,6 +5,7 @@ import data from "../data/Text.json";
 import { motion } from "framer-motion";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import dynamic from "next/dynamic";
 
 import {
 	Box,
@@ -36,11 +37,14 @@ import {
 
 import { Container } from "@chakra-ui/react";
 import { ChevronDownIcon, ChevronUpIcon } from "@chakra-ui/icons";
-import MapModule from "../components/MapModule";
 import CubeEmpty from "../components/CubeEmpty";
 import CubeFull from "../components/CubeFull";
 
 export default function Home() {
+	const Map = dynamic(() => import("../components/MapModule"), {
+		ssr: false,
+	});
+
 	const { colorMode, toggleColorMode } = useColorMode()
 
 	function getRandomInt(min, max) {
@@ -737,8 +741,8 @@ export default function Home() {
 					<Text>{data.MapTitle}</Text>
 				</Container>
 				<Box w="80vw" mx="auto" pt={10}>
-					<MapModule />
-					<Box bg={ProjectsContainer} h="fit-content" >
+					<Map/>
+					<Box bg={ProjectsContainer} h="fit-content" mt={3}>
 						<HStack alignContent="center" justifyContent="center" p="2">
 							<Image src="/images/Markers/bleu.png" w={10} />
 							<Text textAlign="center" fontSize={"0.8rem"} my="1">
@@ -757,10 +761,11 @@ export default function Home() {
 						</HStack>
 					</Box>
 				</Box>
-
+				
 
 			</section>
-
+			
+			
 			
 		</>
 	);
