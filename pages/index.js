@@ -2,6 +2,8 @@ import Head from "next/head";
 import React from 'react';
 import { ReactNode } from "react";
 import data from "../data/Text.json";
+import { motion } from "framer-motion";
+
 import {
   Box,
   Flex,
@@ -26,7 +28,8 @@ import {
   Grid,
   GridItem,
   SimpleGrid,
-  VStack
+  VStack,
+  keyframes
 } from "@chakra-ui/react";
 
 import { Container } from "@chakra-ui/react";
@@ -40,8 +43,14 @@ export default function Home() {
   const ProjectsContainer = useColorModeValue("gray.300", "gray.700")
   const PresentationContainer = useColorModeValue("gray.300", "gray.700")
 
+ 
+  
+
+
+
   return (
     <>
+      {/*Intro Section*/}
       <section style={{ position: "relative" }}>
         <Flex style={{ width: "85%", height: "500px" }} mx={"auto"} mt={50}>
           <Container
@@ -50,9 +59,11 @@ export default function Home() {
             style={{ zIndex: "10" }}
             className={"Home-Text"}
           >
+            
             <Text fontSize="50px" className={"Home-Text"}>
               Sahel HAOUCHET
             </Text>
+            
             <Text fontStyle="italic" fontSize="40px" className={"Home-Text"}>
               {data.jobs}
             </Text>
@@ -136,12 +147,12 @@ export default function Home() {
               borderColor="#4DAEF9"
               w="70px"
               h="70px"
+              
               style={{
                 position: "absolute",
                 top: "0%",
                 left: "80%",
                 zIndex: "0",
-                transform: "rotate(70deg)",
               }}
             ></Box>
             <Box
@@ -239,6 +250,7 @@ export default function Home() {
         </Flex>
       </section>
 
+      {/*Presentation Section*/}
       <section style={{ marginTop: "23vh" }} id="me">
         <Flex
           style={{ width: "85%", height: "fit-content" }}
@@ -250,7 +262,14 @@ export default function Home() {
             style={{ position: "relative" }}
             my={"auto"}
           >
-            <Box bg="#4DAEF9" className="presentation-BlueBox"></Box>
+            <Box bg="#4DAEF9" 
+            style={{position: "absolute",
+              top: "-10%",
+              left: "15%",
+              width: "40%",
+              height: "60%",
+              zIndex: "-1"
+              }}></Box>
             <Image
               src="/images/me.JPG"
               style={{ zIndex: "10" }}
@@ -260,7 +279,15 @@ export default function Home() {
               mx="auto"
               mb="5"
             />
-            <Box bg="#F5F94D" className="presentation-YellowBox"></Box>
+            <Box bg="#F5F94D"
+            style={{
+              position: "absolute",
+              top: "45%",
+              right: "15%",
+              width: "40%",
+              height: "60%",
+              zIndex: "-1",
+              }}></Box>
           </Container>
 
           <Container
@@ -286,7 +313,7 @@ export default function Home() {
         </Flex>
       </section>
 
-
+      {/*Skills Section*/}
       <section style={{ position: "relative", marginTop: "10%" }} id="skills">
         <Container
           w={"fit-content"}
@@ -313,7 +340,13 @@ export default function Home() {
           mx={"auto"}
           my={20}
         >
-          <Box bg="#F5F94D" className="skills-YellowBox"></Box>
+          <Box bg="#F5F94D" 
+          style={{position: "absolute",
+                  top: "0%",
+                  left: "0%",
+                  width: "60%",
+                  height: "60%",
+                  zIndex: "-1"}}></Box>
           <Container
             w={"fit-content"}
             h={"fit-content"}
@@ -390,10 +423,18 @@ export default function Home() {
             </Flex>
           </Container>
 
-          <Box bg="#4DAEF9" className="skills-BlueBox"></Box>
+          <Box bg="#4DAEF9" 
+          style={{position: "absolute",
+                  bottom: "0%",
+                  right: "0%",
+                  width: "60%",
+                  height: "60%",
+                  zIndex: "-1"}}></Box>
         </Flex>
       </section>
 
+
+      {/*Projects Section*/}
       <section style={{ position: "relative", marginTop: "10%" }} id="projects">
         <Container
           w={"fit-content"}
@@ -747,6 +788,7 @@ export default function Home() {
           </SimpleGrid>
       </section>
 
+      {/*MAP Section*/}
       <section style={{ position: "relative", marginTop: "10%" }} id="projects">
         <Container
           w={"fit-content"}

@@ -17,47 +17,9 @@ a {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 10px;
-  display: none;
+  width: 25px;
+  color: #000;
 }
-.presentation-BlueBox
-{
-  position: absolute;
-  top: -10%;
-  left: 15%;
-  width: 40%;
-  height: 60%;
-  z-index: -1;
-}
-.presentation-YellowBox
-{
-  position: absolute;
-  top: 45%;
-  right: 15%;
-  width: 40%;
-  height: 60%;
-  z-index: -1;
-}
-
-.skills-YellowBox
-{
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  width: 60%;
-  height: 60%;
-  z-index: -1;
-}
-.skills-BlueBox
-{
-  position: absolute;
-  bottom: 0%;
-  right: 0%;
-  width: 60%;
-  height: 60%;
-  z-index: -1;
-}
-
 
 @media screen and (max-width: 900px) {
   .MobDNone

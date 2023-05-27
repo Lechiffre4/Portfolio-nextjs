@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { Map, Marker, ZoomControl } from "pigeon-maps"
+import { Map, Marker} from "pigeon-maps"
 import { Box, Button } from "@chakra-ui/react";
 
 export default function MapModule() {
@@ -10,8 +10,8 @@ export default function MapModule() {
 
     return (
       <>
-       <Map height={400} w={300} defaultCenter={[44.607566667292474, -41.02569267243855]} defaultZoom={3}>
-        <ZoomControl />
+       <Map height={400} w={300} defaultCenter={[44.607566667292474, -41.02569267243855]} defaultZoom={3}
+       mouseEvents={false} touchEvents={false} zoomControl={false}>
 
         <Marker width={50} anchor={[45.72699552758115, 4.823338371506634]} color={colorWork}/>
         <Marker width={50} anchor={[45.498699863785895, -73.5648149156413]} color={colorWork}/>
