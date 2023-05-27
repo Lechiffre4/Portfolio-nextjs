@@ -75,17 +75,6 @@ export default function Footer() {
             <FaGithub size="1.5rem" />
           </a>
         </Text>
-        <Text fontSize="sm">
-          <a
-            href="
-                    https://t.me/Lechiffre4
-                    "
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaTelegramPlane size="1.5rem" />
-          </a>
-        </Text>
       </HStack>
       <Text fontSize="sm" color="subtle" pt={15} pb={5} textAlign={"center"}>
         &copy; {new Date().getFullYear()} HAOUCHET Sahel. All rights reserved.
