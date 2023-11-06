@@ -52,7 +52,7 @@ export default function MapModule() {
 
           <Marker position={[45.78621302557086, 4.88351890102155]}
           icon={L.icon({
-            iconUrl: "/images/Markers/Vert.png",
+            iconUrl: "/images/Markers/Jaune.png",
             iconSize: [30, 30],
           })}>
             <Popup>
@@ -82,7 +82,6 @@ export default function MapModule() {
               <Text textAlign="center">Studied <b>Computer Science</b> at <Link href="https://www.cegep-matane.qc.ca" target="_blank"><b>Cegep de Matane</b></Link> during an international mobility</Text>
             </Popup>
           </Marker>
-          
           
       </MapContainer>
 

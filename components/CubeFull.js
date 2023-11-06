@@ -4,7 +4,6 @@ import {
 } from "@chakra-ui/react";
 
 export default function CubeFull(color) {
-	console.log(color.color);
 
 	function getRandomInt(min, max) {
 		min = Math.ceil(min);
